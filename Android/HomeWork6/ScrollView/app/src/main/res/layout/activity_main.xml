@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="7"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnred"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#ff0000"
+            android:text="@string/red" />
+
+        <Button
+            android:id="@+id/btnorange"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#f47b4e"
+            android:text="Orange" />
+
+        <Button
+            android:id="@+id/btnyellow"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#FFFF00"
+            android:text="Yellow" />
+
+
+        <Button
+            android:id="@+id/btngreen"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#008000"
+            android:text="Green" />
+
+
+        <Button
+            android:id="@+id/btnblue"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:background="#0000FF"
+            android:text="Blue" />
+
+        <Button
+            android:id="@+id/btnINDIGO"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="#4b0082"
+            android:text="INDIGO" />
+
+
+        <Button
+            android:id="@+id/Violet"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="#EE82EE"
+            android:text="Violet" />
+
+
+    </LinearLayout
+        >
+</ScrollView>

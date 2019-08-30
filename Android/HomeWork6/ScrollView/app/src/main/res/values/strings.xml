@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Question2_HW6</string>
+    <string name="blue">blue</string>
+    <string name="Orange">orange</string>
+    <string name="yellow">yellow</string>
+    <string name="green">green</string>
+    <string name="INDIGO">INDIGO</string>
+    <string name="violet">violet</string>
+    <string name="red"> Red</string>
+</resources>
