@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="10.0dip"
+    android:layout_marginTop="10.0dip"
+    android:layout_marginRight="10.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="16.0dip"
+        android:id="@+id/txt_detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+    <EditText
+        android:textSize="16.0dip"
+        android:textStyle="normal"
+        android:id="@+id/edt_detail_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="here describe"
+        android:textAllCaps="false" />
+    <TextView
+        android:textSize="16.0dip"
+        android:id="@+id/edt_detail_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="Date" />
+    <Button
+        android:textSize="16.0dip"
+        android:id="@+id/btn_detail_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Date" />
+    <TextView
+        android:textSize="16.0dip"
+        android:id="@+id/edt_detail_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="Time" />
+    <Button
+        android:textSize="18.0dip"
+        android:id="@+id/btn_detail_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Time" />
+    <CheckBox
+        android:textSize="14.0dip"
+        android:id="@+id/chk_detail_important"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="Set Important" />
+    <CheckBox
+        android:textSize="14.0dip"
+        android:id="@+id/chk_detail_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:text="Set Done" />
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:textSize="14.0dip"
+            android:gravity="center"
+            android:id="@+id/btn_detail_cancel"
+            android:background="#00ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="Cancle"
+            android:layout_weight="1.0"
+            android:drawableStart="@drawable/ic_close_black_24dp" />
+        <Button
+            android:enabled="false"
+            android:textSize="14.0dip"
+            android:textColor="#ffaaaaaa"
+            android:gravity="center"
+            android:id="@+id/btn_detail_delete_off"
+            android:background="#00ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="Delete"
+            android:layout_weight="1.0"
+            android:drawableStart="@drawable/ic_delete_black_24dp" />
+        <Button
+            android:enabled="true"
+            android:textSize="14.0dip"
+            android:gravity="center"
+            android:id="@+id/btn_detail_delete_on"
+            android:background="#00ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="Delete"
+            android:layout_weight="1.0"
+            android:drawableStart="@drawable/ic_delete_black_24dp" />
+        <Button
+            android:textSize="14.0dip"
+            android:gravity="center"
+            android:id="@+id/btn_detail_done"
+            android:background="#00ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:text="Done"
+            android:layout_weight="1.0"
+            android:drawableStart="@drawable/ic_done_black_24dp" />
+    </LinearLayout>
+</LinearLayout>
