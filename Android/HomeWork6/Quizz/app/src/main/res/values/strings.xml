@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quizz</string>
+        <string name="true_txt">درست</string>
+        <string name="False_txt">غلط</string>
+        <string name="btn_next">بعدی</string>
+        <string name="btnpriv">قبلی</string>
+        <string name="start">اولین</string>
+        <string name="end">آخرین</string>
+        <string name="Q1">آیا ایران در آسیا قرار دارد</string>
+        <string name="Q2">آیا پایتخت ایران تهران است </string>
+        <string name="Q3">آیا امید 20 سال دارد </string>
+        <string name="Q4">آیا نوید برادر امید است </string>
+        <string name="Q5">آیا امید دانشجو است </string>
+    </resources>
