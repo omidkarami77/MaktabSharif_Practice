@@ -9,7 +9,7 @@ import android.os.Bundle;
 import java.util.UUID;
 
 public class TaskDetailActivity extends SingleFragmentActivity {
-    public static final String INTENT_EXTRA_KEY = "com.example.omid.hw88_activity_intent_key";
+    public static final String INTENT_EXTRA_KEY = "com.example.todolist.TaskDetailActivity.activity_intent_key";
 
     public static Intent newIntent(Context orgin, UUID taskId) {
         Intent intent = new Intent(orgin, TaskDetailActivity.class);

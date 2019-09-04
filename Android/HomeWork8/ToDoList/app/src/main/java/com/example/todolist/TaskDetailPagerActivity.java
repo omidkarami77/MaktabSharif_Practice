@@ -16,8 +16,8 @@ import java.util.List;
 import java.util.UUID;
 
 public class TaskDetailPagerActivity extends AppCompatActivity {
-    public static final String EXTRA_TAB_ID = "com.example.omid.hw88.TaskDetailPagerActivity.extra_tab_id";
-    public static final String EXTRA_TASK_ID = "com.example.omid.hw88.TaskDetailPagerActivity.extra_task_id";
+    public static final String EXTRA_TAB_ID = " com.example.todolist.TaskDetailPagerActivity.extra_tab_id";
+    public static final String EXTRA_TASK_ID = "com.example.todolist.TaskDetailPagerActivity.extra_task_id";
     private Integer mTabId;
     private Task mTask;
     private UUID mTaskId;

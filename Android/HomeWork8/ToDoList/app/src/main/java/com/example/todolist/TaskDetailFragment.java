@@ -31,7 +31,7 @@ import java.util.UUID;
  * A simple {@link Fragment} subclass.
  */
 public class TaskDetailFragment extends Fragment {
-    public static final String ARG_TASK_ID = "com.example.omid.hw88.TaskDetailFragment.arg_task_id ";
+    public static final String ARG_TASK_ID = "com.example.todolist.TaskDetailFragment.arg_task_id";
     private Button mCancelBtn;
     private Task mCurrentTask;
     private UUID mCurrentTaskId;
